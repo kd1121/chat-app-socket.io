@@ -1,0 +1,43 @@
+.nav-div{
+
+    display: flex;
+    justify-content: flex-start;
+    background-color: #252525;
+    box-shadow: 0 2px 5px #555;
+    /* border-radius: 5px; */
+    margin: 0
+
+}
+
+#span-e{
+    border-top: solid #EEA29C;
+}
+
+
+
+
+.link-route{ 
+    padding: 2%;
+    text-decoration: none;
+    color: darkslategrey;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.link-route-head{
+    padding: 2%;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 1.5rem;
+    /* text-decoration: ; */
+    text-decoration-color: #252525;
+
+
+
+}
+
+a:hover{
+    color: aliceblue;    
+}
+
