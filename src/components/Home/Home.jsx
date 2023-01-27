@@ -12,8 +12,8 @@ const Home = () => {
         </div>
         <div className='home-body'>
           <div className='wlcm-txt'>
-            <h2>Hey! Welcome to Chat AR<span>e</span>NA</h2>
-            <p>Let's <span className='animated-txt'></span> together.</p>
+            <h2 className='home-head'>Hey! Welcome to Chat AR<span className='style-e'>é</span>NA</h2>
+            <p className='ani-txt'>Let's <span className='animated-txt'></span> together.</p>
           </div>
         
           <div class="goto-wrapper">

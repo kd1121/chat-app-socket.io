@@ -11,32 +11,43 @@
   align-items: center;
 } */
 
+.ani-txt{
+  font-size: 3.5rem;
+}
+
+.home-head{
+  font-size: 6rem;
+}
+
 .goto-wrapper {
   display: flex;
   justify-content: flex-start;
-  padding: 2rem 0 2rem 0;
+  padding: 2rem 0 2rem 0 ;
 }
 
 .cta {
     display: flex;
-    padding: 10px 45px;
+    padding: 5px 20px;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-    color: white;
-    background: #6225E6;
+    font-size: 20px;
+    color: #559661;
+    background: #B3ECBD;
     transition: 1s;
-    box-shadow: 6px 6px 0 black;
+    box-shadow: 3px 3px 0 #252525;
     transform: skewX(-15deg);
 }
 
 .cta:focus {
-   outline: none; 
+   outline: none;
+
 }
 
 .cta:hover {
     transition: 0.5s;
-    box-shadow: 10px 10px 0 #FBC638;
+    box-shadow: 5px 5px 0 #9b70c4;
+    color: #B3ECBD;
+    background-color: #559661; 
 }
 
 .cta span:nth-child(2) {
@@ -101,18 +112,31 @@ path.two {
 } */
 
 .goto-chat-room-btn{
-  text-decoration: none;
+  text-decoration: none;  
+}
+
+/* .goto-chat-room-btn:hover{
+  cursor: pointer;
+} */
+
+button:hover{
+  cursor: pointer;
 }
 
 
 .home-body{
-  padding: 2rem;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .wlcm-txt{
   font-size: 5rem;
   font-weight: 600;
   color: #498071;
+}
+
+.style-e{
+  color: #252525;
 }
 
 .animated-txt{
@@ -123,7 +147,7 @@ path.two {
   background-color: #2525252f;
 
   content: "";
-  animation: spin 15s ease-in-out infinite;
+  animation: spin 8s ease-in-out infinite;
 }
 
 @keyframes spin{
@@ -133,35 +157,90 @@ path.two {
   6% {content: "do ch"; }
   8% {content: "do cha"; }
   10% {content: "do chat"; }
-  12% {content: "do ch"; }
-  14% {content: "do ch"; }
-  16% {content: "do c"; }
-  18% {content: "do"; }
-  20% {content: "d"; }
-  22% {content: ""; }
-  24% {content: "m"; }
-  26% {content: "ma"; }
-  28% {content: "mak"; }
-  30% {content: "make"; }
-  32% {content: "make g"; }
-  34% {content: "make go"; }
-  36% {content: "make gos"; }
-  38% {content: "make goss"; }
-  40% {content: "make gossi"; }
-  42% {content: "make gossip"; }
-  44% {content: "make gossips"; }
+  12% {content: "do chat"; }
+  14% {content: "do cha"; }
+  16% {content: "do ch"; }
+  18% {content: "do c"; }
+  20% {content: "do"; }
+  22% {content: "d"; }
+  24% {content: ""; }
+  26% {content: "m"; }
+  28% {content: "ma"; }
+  30% {content: "mak"; }
+  32% {content: "make"; }
+  34% {content: "make g"; }
+  36% {content: "make go"; }
+  38% {content: "make gos"; }
+  40% {content: "make goss"; }
+  42% {content: "make gossi"; }
+  44% {content: "make gossip"; }
   46% {content: "make gossips"; }
+  48% {content: "make gossips"; }
+  50% {content: "make gossip"; }
+  52% {content: "make gossi"; }
+  54% {content: "make goss"; }
+  56% {content: "make gos"; }
+  58% {content: "make go"; }
+  60% {content: "make g"; }
+  62% {content: "make"; }
+  64% {content: "mak"; }
+  66% {content: "ma"; }
+  68% {content: "m"; }
+  70% {content: ""; }
+  72% {content: "h"; }
+  74% {content: "ha"; }
+  76% {content: "hav"; }
+  78% {content: "have"; }
+  80% {content: "have f"; }
+  82% {content: "have fu"; }
+  84% {content: "have fun"; }
+  86% {content: "have fun"; }
+  88% {content: "have fu"; }
+  90% {content: "have f"; }
+  92% {content: "have"; }
+  94% {content: "hav"; }
+  96% {content: "ha"; }
+  98% {content: "h"; }
+  100% {content: ""; }
+  /* 100% {content: ""; } */
+}
+
+/* @keyframes spin{
+  0% {content: "d";  }
+  2% {content: "do";}
+  4% {content: "do c"; }
+  6% {content: "do ch"; }
+  8% {content: "do cha"; }
+  10% {content: "do chat"; }
+  12% {content: "do chat"; }
+  14% {content: "do chat"; }
+  16% {content: "do chat"; }
+  18% {content: "do chat"; }
+  20% {content: "do chat"; }
+  22% {content: "do chat"; }
+  24% {content: ""; }
+  26% {content: ""; }
+  28% {content: ""; }
+  30% {content: "m"; }
+  32% {content: "ma"; }
+  34% {content: "mak"; }
+  36% {content: "make"; }
+  38% {content: "make g"; }
+  40% {content: "make go"; }
+  42% {content: "make gos"; }
+  44% {content: "make goss"; }
+  46% {content: "make gossi"; }
   48% {content: "make gossip"; }
-  50% {content: "make gossi"; }
-  52% {content: "make goss"; }
-  54% {content: "make gos"; }
-  56% {content: "make go"; }
-  58% {content: "make g"; }
-  60% {content: "make"; }
-  62% {content: "mak"; }
-  64% {content: "ma"; }
-  66% {content: "m"; }
-  68% {content: ""; }
+  50% {content: "make gossips"; }
+  52% {content: "make gossips"; }
+  54% {content: "make gossips"; }
+  56% {content: "make gossips"; }
+  58% {content: "make gossips"; }
+  60% {content: "make gossips"; }
+  62% {content: "make gossips"; }
+  64% {content: " "; }
+  66% {content: " "; }
+  68% {content: " "; }
   70% {content: "h"; }
   72% {content: "ha"; }
   74% {content: "hav"; }
@@ -170,15 +249,16 @@ path.two {
   80% {content: "have fu"; }
   82% {content: "have fun"; }
   84% {content: "have fun"; }
-  86% {content: "have fu"; }
-  88% {content: "have f"; }
-  90% {content: "have"; }
-  92% {content: "hav"; }
-  94% {content: "ha"; }
-  96% {content: "h"; }
+  86% {content: "have fun"; }
+  88% {content: "have fun"; }
+  90% {content: "have fun"; }
+  92% {content: "have fun"; }
+  94% {content: "have fun"; }
+  96% {content: ""; }
   98% {content: ""; }
   100% {content: ""; }
-}
+} */
+
 
 /* .wlcm-txt p{
   background-color: #2525252f;
