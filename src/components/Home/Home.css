@@ -280,3 +280,61 @@ button:hover{
   90% {}
   100% {}
 } */
+
+
+
+/* Create Button */
+
+.cta-txt {
+    display: flex;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #559661;
+    background: #B3ECBD;
+    transition: 1s;
+    box-shadow: 3px 3px 0 #252525;
+    transform: skewX(-15deg);
+    margin-right: 10px;
+    /* border: solid #252525; */
+}
+
+.cta-txt:focus {
+   outline: none;
+
+}
+
+/* .cta-txt:hover {
+    transition: 0.5s;
+    box-shadow: 5px 5px 0 #9b70c4;
+    color: #B3ECBD;
+    background-color: #559661; 
+} */
+
+.cta-txt span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 0px;
+}
+
+.cta-txt:hover  span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 45px;
+}
+
+  span {
+    transform: skewX(15deg) 
+  }
+
+  span:nth-child(2) {
+    width: 20px;
+    margin-left: 30px;
+    position: relative;
+    top: 12%;
+  }
+
+  .create-room-body{
+    display: flex;
+    justify-content: flex-start;
+
+  }
